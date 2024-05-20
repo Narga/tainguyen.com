@@ -1,0 +1,4 @@
+baseURL = 'https://www.tainguyen.com/'
+languageCode = 'vi-VN'
+title = 'TÀI NGUYÊN'
+theme = 'ananke'
