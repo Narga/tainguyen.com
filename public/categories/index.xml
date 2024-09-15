@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on My New Hugo Site</title>
-    <link>https://example.org/categories/</link>
-    <description>Recent content in Categories on My New Hugo Site</description>
+    <title>Categories on Tài Nguyên</title>
+    <link>https://www.tainguyen.com/categories/</link>
+    <description>Recent content in Categories on Tài Nguyên</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>vi-VN</language>
     <lastBuildDate>Thu, 12 Sep 2024 23:57:58 +0200</lastBuildDate>
-    <atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.tainguyen.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tiếng Slovakia</title>
-      <link>https://example.org/categories/ti%E1%BA%BFng-slovakia/</link>
+      <link>https://www.tainguyen.com/categories/ti%E1%BA%BFng-slovakia/</link>
       <pubDate>Thu, 12 Sep 2024 23:57:58 +0200</pubDate>
-      <guid>https://example.org/categories/ti%E1%BA%BFng-slovakia/</guid>
+      <guid>https://www.tainguyen.com/categories/ti%E1%BA%BFng-slovakia/</guid>
       <description></description>
     </item>
   </channel>

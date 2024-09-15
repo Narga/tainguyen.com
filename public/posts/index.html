@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="en-us"
+<html lang="vi-VN"
   x-data
   :class="$store.darkMode.class()"
   :data-theme="$store.darkMode.theme()">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posts | My New Hugo Site</title>
+    <title>Posts | Tài Nguyên</title>
 
     
 
-<link rel="canonical" href="https://example.org/posts/" />
+<link rel="canonical" href="https://www.tainguyen.com/posts/" />
 
 
 
-<meta name="author" content="" />
+<meta name="author" content="narga" />
 <meta name="description" content="" />
 
 
@@ -25,10 +25,11 @@
 <meta name="generator" content="Hugo 0.134.0">
 
 
-<meta property="og:url" content="https://example.org/posts/">
-  <meta property="og:site_name" content="My New Hugo Site">
+<meta property="og:url" content="https://www.tainguyen.com/posts/">
+  <meta property="og:site_name" content="Tài Nguyên">
   <meta property="og:title" content="Posts">
-  <meta property="og:locale" content="en_us">
+  <meta property="og:description" content="Tôi biết, bạn cũng biết">
+  <meta property="og:locale" content="vi_VN">
   <meta property="og:type" content="website">
 
 
@@ -36,6 +37,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Posts">
+  <meta name="twitter:description" content="Tôi biết, bạn cũng biết">
 
 
 
@@ -64,15 +66,24 @@
 <nav class="mt-4 lg:mt-8 py-4">
 
   
-  <div class="container flex justify-between px-4">
+  <div class="container flex justify-between max-w-[65ch] mx-auto px-4 md:px-0">
   
     <section class="flex items-center gap-4">
       <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="Flip it!">
         <div class="h-10 rounded-full">
-          <img src="/" alt="" />
+          <img src="/" alt="Tài Nguyên" />
         </div>
       </div>
 
+      
+      <div>
+        
+        <a href="https://www.tainguyen.com/" class="text-lg font-semibold cursor-pointer">
+          Tài Nguyên
+        </a>
+        
+        
+      </div>
       
     </section>
 
@@ -94,9 +105,12 @@
 
 
 
-
-
-
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/index.xml" title="RSS">
+    <ion-icon name="logo-rss"></ion-icon>
+    RSS
+  </a>
+</li>
 
 
 
@@ -152,9 +166,9 @@
 
       
       
-
-
-
+<a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/index.xml" title="RSS">
+  <ion-icon class="group-hover:text-primary-content" name="logo-rss"></ion-icon>
+</a>
 
 
       
@@ -231,21 +245,17 @@
 
 
             
-            <footer class="flex justify-between items-center gap-2 px-4 py-12">
+            <footer class="flex justify-between items-center gap-2 max-w-[65ch] mx-auto px-4 md:px-0 py-12">
             
               <div>
   
-  <p>© 2024 My New Hugo Site</p>
+  <p>
+    © 2006 - 2024 Tài Nguyên
+  </p>
   
 
   
-  <p class="text-sm">
-    🌱
-    <span class="text-base-content/60">
-      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
-      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
-    >
-  </p>
+  <p>Bản quyền về Nội dung © 2003-2023 tuân theo theo giấy phép <a href="https://web.archive.org/web/20171005084255/https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-ND 4.0</a>.<br> <span> <strong>TRÍCH</strong> dẫn nguyên vẹn, <strong>PHẢI</strong> ghi rõ <strong>NGUỒN</strong>, chỉ <strong>DÙNG</strong> cá nhân, <strong>KHÔNG</strong> được tính phí.</span></p>
   
 </div>
 
@@ -282,7 +292,7 @@
         <div class="back">
           <div class="container">
             
-            <div class="dream-grid">
+            <div class="max-w-[65ch] mt-8 mx-auto px-4">
   
 
   
@@ -297,19 +307,10 @@
     </div>
 
     <script>
-  window.lightTheme =  null 
-  window.darkTheme =  null 
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
 </script>
 
-
-  <script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
-
-  
-  
-    
-  
-  <script src="/js/grid.min.js"></script>
 
 
 

@@ -1,14 +1,25 @@
 baseURL = 'https://www.tainguyen.com/'
+languageName = "VN"
 languageCode = 'vi-VN'
-title = 'Tai Nguyên'
+defaultContentLanguage = "vi"
+title = 'Tài Nguyên'
 theme = 'dream'
+
+[permalinks]
+    posts = "/:year/:month/:slug/"
+    page = "/:slug/"
+ [permalinks.page]
+    posts = '/articles/:year/:month/:slug/'
+    tutorials = '/training/:slug/'
+  [permalinks.section]
+    posts = '/articles/'
+    tutorials = '/training/'
 
 # [services]
 # [services.disqus]
 # shortname = ""
 # [services.googleAnalytics]
 # ID = ""
-
 
 [params]
 # zenMode = true
@@ -20,12 +31,14 @@ darkTheme = "forest"
 # backgroundImageDark = ""
 
 author = "narga"
-# description = ""
+description = "Tôi biết, bạn cũng biết"
 # avatar = "img/avatar.png"
-headerTitle = "Hugo Theme Dream"
-# motto = ""
+headerTitle = "Tài Nguyên"
+motto = "Tôi biết, bạn cũng biết"
 
-# footerBottomText = ""
+footerBottomText = '''
+Bản quyền về Nội dung © 2003-2024 tuân theo giấy phép <a href="https://web.archive.org/web/20171005084255/https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-ND 4.0</a>.<br> <span> <strong>TRÍCH</strong> dẫn nguyên vẹn, <strong>PHẢI</strong> ghi rõ <strong>NGUỒN</strong>, chỉ <strong>DÙNG</strong> cá nhân, <strong>KHÔNG</strong> được tính phí.</span>
+'''
 
 rss = true
 
@@ -40,7 +53,7 @@ rss = true
 
 # email = ""
 
-siteStartYear = 2006
+# siteStartYear = 2006
 
 # favicon = "favicon.ico"
 
